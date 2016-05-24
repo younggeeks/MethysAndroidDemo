@@ -1,0 +1,235 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/car_detail"
+          style="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="16dp"
+                android:layout_alignParentTop="true"
+              android:weightSum="3"
+              android:orientation="vertical"
+          tools:context="younggeeks.com.methystake2.CarDetailFragment"
+
+>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+            <TableLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|start|top"
+
+            >
+
+                <TableRow
+                        android:background="#FF5722"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="#ffff"
+                            android:text="Manufacturer"
+                            android:textSize="22sp"
+                    />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/manufacturer"
+                            android:textColor="#ffff"
+                            android:textSize="22sp"
+                            android:text="Toyota" />
+
+                </TableRow>
+
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Model" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/model"
+                            android:textSize="22sp"
+                            android:text="Axio" />
+                </TableRow>
+
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Year" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/year"
+                            android:textSize="22sp"
+                            android:text="2017" />
+                </TableRow>
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Top Speed" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/topSpeed"
+                            android:textSize="22sp"
+                            android:text="123 Km/H" />
+
+                </TableRow>
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Color" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/color"
+                            android:textSize="22sp"
+                            android:text="Red" />
+
+                </TableRow>
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Type" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/type"
+                            android:textSize="22sp"
+                            android:text="Car" />
+
+                </TableRow>
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Category" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/category"
+                            android:textSize="22sp"
+                            android:text="SUV" />
+
+                </TableRow>
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Fuel Type" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/fuel"
+                            android:textSize="22sp"
+                            android:text="Electric" />
+
+                </TableRow>
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Driven Wheels" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/wheels"
+                            android:textSize="22sp"
+                            android:text="four-wheel-driven" />
+
+                </TableRow>
+                <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:text="Transimission" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="22sp"
+                            android:id="@+id/transmission"
+                            android:text="Automatic" />
+
+                </TableRow>
+            </TableLayout>
+
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="473dp"
+                    android:id="@+id/car_photo"
+                    android:layout_weight="1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="116dp"
+                    android:layout_marginEnd="116dp"
+                    android:src="@drawable/toyota"
+            />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

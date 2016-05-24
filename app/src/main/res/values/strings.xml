@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Vehicle Showcase</string>
+    <string name="title_car_detail">Car Detail</string>
+</resources>
